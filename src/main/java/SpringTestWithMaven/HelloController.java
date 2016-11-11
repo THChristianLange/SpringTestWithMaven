@@ -20,9 +20,11 @@ public class HelloController {
 
     @Data
     static class Result {
+    	
         private final int left;
         private final int right;
         private final long answer;
+        
     }
 
     // SQL sample
