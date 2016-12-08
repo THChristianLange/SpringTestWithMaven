@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.9130434782608695" branch-rate="0.0" lines-covered="21" lines-valid="23" branches-covered="0" branches-valid="12" complexity="1.0" version="2.1.1" timestamp="1481213758868">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Christian.Lange/SpringTestWithMaven/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="SpringTestWithMaven" line-rate="0.9130434782608695" branch-rate="0.0" complexity="1.0">
+			<classes>
+				<class name="SpringTestWithMaven.App" filename="SpringTestWithMaven/App.java" line-rate="0.3333333333333333" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="5" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="SpringTestWithMaven.AppConfig" filename="SpringTestWithMaven/AppConfig.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="dataSource" signature="()Ljavax/sql/DataSource;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="realDataSource" signature="()Ljavax/sql/DataSource;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="5" branch="false"/>
+								<line number="23" hits="5" branch="false"/>
+								<line number="24" hits="5" branch="false"/>
+								<line number="25" hits="5" branch="false"/>
+								<line number="26" hits="5" branch="false"/>
+								<line number="27" hits="5" branch="false"/>
+								<line number="28" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="5" branch="false"/>
+						<line number="22" hits="5" branch="false"/>
+						<line number="23" hits="5" branch="false"/>
+						<line number="24" hits="5" branch="false"/>
+						<line number="25" hits="5" branch="false"/>
+						<line number="26" hits="5" branch="false"/>
+						<line number="27" hits="5" branch="false"/>
+						<line number="28" hits="5" branch="false"/>
+						<line number="34" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="SpringTestWithMaven.HelloController" filename="SpringTestWithMaven/HelloController.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="calc" signature="(II)LSpringTestWithMaven/HelloController$Result;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="5" branch="false"/>
+								<line number="34" hits="5" branch="false"/>
+								<line number="35" hits="5" branch="false"/>
+								<line number="36" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="hello" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$calc$0" signature="(IILjava/sql/ResultSet;I)LSpringTestWithMaven/HelloController$Result;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="5" branch="false"/>
+						<line number="18" hits="5" branch="false"/>
+						<line number="33" hits="5" branch="false"/>
+						<line number="34" hits="5" branch="false"/>
+						<line number="35" hits="5" branch="false"/>
+						<line number="36" hits="5" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="SpringTestWithMaven.HelloController$Result" filename="SpringTestWithMaven/HelloController.java" line-rate="1.0" branch-rate="0.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(IIJ)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="canEqual" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="getAnswer" signature="()J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLeft" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRight" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="21" hits="10" branch="true" condition-coverage="0% (0/12)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+										<condition number="2" type="jump" coverage="0%"/>
+										<condition number="3" type="jump" coverage="0%"/>
+										<condition number="4" type="jump" coverage="0%"/>
+										<condition number="5" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="10" branch="true" condition-coverage="0% (0/12)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+								<condition number="2" type="jump" coverage="0%"/>
+								<condition number="3" type="jump" coverage="0%"/>
+								<condition number="4" type="jump" coverage="0%"/>
+								<condition number="5" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="24" hits="10" branch="false"/>
+						<line number="25" hits="10" branch="false"/>
+						<line number="26" hits="10" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
