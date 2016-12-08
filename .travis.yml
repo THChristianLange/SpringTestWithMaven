@@ -2,5 +2,6 @@ language: java
 sudo: false
 jdk: 
   - oraclejdk8
-script:
+after_success:
   - mvn clean verify cobertura:cobertura coveralls:report
+  -DrepoToken=%COVERALLS_REPO_TOKEN
